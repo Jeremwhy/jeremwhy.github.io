@@ -17,8 +17,13 @@
         deploymentId: 'f269c139-6462-43ce-a3bb-1bdbe6064c8e'
       });
     </script>
-<script type="text/javascript" charset="utf-8">
-Genesys("command", "Messenger.open");
-</script>
+<body onload="launch()">
+    <script type="text/javascript" charset="utf-8">
+        function launch(){
+            Genesys("command", "Messenger.open");
+        }
+    </script>
+    <h1>Web Messaging</h1>
+</body>
 
 </html>
