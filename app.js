@@ -9,5 +9,5 @@
   })(window, 'Genesys', 'https://apps.mypurecloud.de/genesys-bootstrap/genesys.min.js', {
     environment: 'euc1',
     deploymentId: 'f269c139-6462-43ce-a3bb-1bdbe6064c8e'
-  });
-Genesys("command", "Messenger.open")
+  }
+Genesys("command", "Messenger.open"));
