@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="app.js"></script>
-    <title>Web Messaging OpenId</title>
+    <title>Web Messaging OpenIdv2</title>
 </head>
-
-<body onload= 'Genesys("command", "Messenger.open")'>
+<script type="text/javascript">
+  function toggleMessenger(){
+    Genesys("command", "Messenger.open")}
+</script>
+<body onload= "toggleMessenger()">
 
 </body>
 </html>
