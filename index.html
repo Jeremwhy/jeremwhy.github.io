@@ -5,17 +5,8 @@
     <script type="text/javascript" src="app.js"></script>
     <title>Web Messaging OpenId</title>
 </head>
-<button type="button" id="custom-launcher" onclick="toggleMessenger()">
-  Messenger
-</button>
-<script type="text/javascript">
-  function toggleMessenger(){
-    Genesys("command", "Messenger.open", {},
-      function(o){},  // if resolved
-      function(o){    // if rejected
-        Genesys("command", "Messenger.close");
-      }
-    );
-  }
-</script>
+
+<body onload= 'Genesys("command", "Messenger.open")'>
+
+</body>
 </html>
